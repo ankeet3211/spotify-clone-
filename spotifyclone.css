@@ -1,0 +1,566 @@
+*{
+    
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style:normal;
+}
+
+
+body{
+    margin: 0px;
+    background-color:#000000;
+    color: white;
+    overflow: hidden;  /*no scrol bar*/
+}
+.main{
+    height: 100vh;
+    display: flex;
+   
+    
+
+}
+
+.sidebar{
+    background-color:black;
+    width: 46.6rem;
+    height: 100vh;
+    border-radius: 1rem;   /*  16px=1 rem */
+    padding: 0.5rem;
+}
+.maincontent{
+    background-color:rgb(0, 0, 0);
+    flex-grow: 1;
+    border-radius: 1rem;
+    overflow: scroll;
+    padding-left: 0.95rem;
+}
+
+.musicplayer{
+    background-color:#000000;
+    
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+.navoption{
+    line-height: 2rem;
+    opacity:0.7;
+    padding: 0.5rem 0.75rem;
+    
+}
+.navoption:hover{
+    
+    opacity:1.5;
+    
+}
+
+.navoption i{
+    font-size: 1.25rem;
+}
+
+.navoption a{
+    font-size: 1rem;
+    margin-left: 0.7rem;
+}
+
+
+/* library */
+
+.library{
+    background-color: #121212;
+    height: 27rem;
+    border-radius: 1rem;
+    margin-top: 0.6rem;
+    
+
+}
+.options{
+    display: flex;
+    opacity: 0.7;
+}
+.options:hover{
+    
+    opacity: 1.5;
+}
+.image{
+
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    line-height: 2rem;
+}
+.icons{
+    padding-top: 0.5rem;
+    padding-left: 6rem;
+    line-height: 2rem;
+}
+.icons #arrow{
+    margin-left: 1.3rem;
+}
+
+.first{
+    background-color: #2a2e2e;
+    height: 10rem;
+    width: 18rem;
+    border-radius: 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.9rem;
+    
+
+}
+.second{
+   
+        background-color: #2a2e2e;
+        height: 10rem;
+        width: 18rem;
+        border-radius: 1.2rem;
+        margin-top: 2rem;
+        margin-left: 0.9rem;
+        
+    
+    
+}
+
+
+/* paragraph */
+
+#one{
+    padding-left: 1.3rem;
+    padding-top: 1.3rem;
+}
+
+#two{
+    padding-left: 1.3rem;
+    padding-top: 0.3rem;
+    font-size: small;
+}
+
+/*badge*/
+
+.badge{
+    margin-left:1rem;
+    margin-top: 0.5rem;
+    line-height: 1.8rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: white;
+    padding-left:0.25rem 1rem;
+    font-weight: 700;
+    
+}
+
+
+/* main content */
+
+#arrow1{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 0.35rem;
+    opacity: 0.7;
+    
+}
+#arrow2{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 0.35rem;
+    opacity: 0.7;
+    
+}
+
+.navbarmain{
+    background-color:rgb(0, 0, 0);
+    height: 3rem;
+    display: flex;
+    z-index: 10;
+    
+    position:fixed;
+}
+
+.badge1{
+    border: none;
+    line-height: 1.8rem;
+    border-radius: 3rem;
+    
+
+
+}
+
+#badge3{
+    background-color: white;
+    
+
+}
+#badge4{
+    background-color: black;
+    color: white;
+    margin-left: 1rem;
+}
+.badges{
+    padding-top: 0.39rem;
+    margin-left: 33rem;
+}
+
+#installicon{
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+}
+#user{
+    margin-left: 0.4rem;
+    margin-top: 0.40rem;
+    font-size: 1.25rem;
+    opacity: 0.7;
+}
+
+#arrow1:hover{
+    opacity: 1;
+}
+
+
+#arrow2:hover{
+    opacity: 1;
+}
+
+#user:hover{
+    opacity: 1;
+}
+
+#badge3:hover{
+    background-color:black;
+    color:white;
+}
+
+
+/* 
+Cards */
+
+.firstcard-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-image1{
+    width: 8.3rem;
+    height: 8rem;
+    border-radius: 1rem;
+    padding-left: 1.33rem;
+    padding-top: 0.9rem;
+    position: relative;
+}
+.card-title{
+    font-size:1.24rem;
+    padding-left: 0.4rem;
+    margin-top:0.4rem;
+}
+.card-info{
+    font-size:0.8rem;
+    padding-left: 0.9rem;
+    opacity: 0.78;
+    padding-left: 1rem;
+    padding-top: 0rem;
+}
+.firstcard{
+    background-color:#121212;
+    height: 15.4rem;
+    width: 10.9rem;
+    
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    opacity: 0.89;
+    
+    
+    text-align:left;
+}
+.firstcard:hover{
+    opacity: 1;
+    
+}
+
+/* footer */
+
+.footer{
+    height: 150px;
+    width: 50%vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linediv{
+    border: solid 2px white;
+    opacity: 0.11;
+    height: 0%;
+    width: 80%;
+   
+    
+}
+
+/* 
+music  */
+
+.musicplayer{
+    display: flex;
+}
+
+.musiccoverimage{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.playbackbar{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.controls{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* image  */
+
+#image-music{
+    height: 4rem;
+    width: 3.9rem;
+    border-radius: 0.7rem;
+    padding-top: 0rem;
+}
+
+.musicimage{
+    margin-left: 2rem;
+    
+}
+/* 
+title */
+
+.music-title{
+    margin-left: 0.6rem;
+    font-size: 0.8rem;
+    margin: top 0.46rem;
+}
+
+
+/* icon */
+
+.loveicon{
+    display: flex;
+    margin-left: 0.9rem;
+    text-align: center;
+    align-items: center;
+
+}
+
+#love1{
+    height: 1.35rem;
+    width: 1.30rem;
+
+}
+#love2{
+    height: 1.5rem;
+    width: 1.3rem;
+   
+
+}
+
+
+/* playbackbar */
+
+
+
+
+.playerr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+#oneplayer{
+    height:0.9rem;
+    width: 0.9rem;
+    opacity: 0.7;
+    padding-top: 0.3rem;
+    
+}
+#twoplayer{
+
+    height:0.9rem;
+    width: 0.9rem;
+    padding-left: 1.4rem;
+    opacity: 0.7;
+    padding-top: 0.3rem;
+    
+}
+
+
+#threeplayer{
+    height:1.8rem;
+    width: 1.8rem;
+    padding-left: 1.4rem;
+    opacity: 0.2;
+    padding-top: 0.3rem;
+   
+    
+}
+#fourplayer{
+    height:0.9rem;
+    width: 0.9rem;
+    padding-left: 1.4rem;
+    opacity: 0.2;
+    
+
+}
+#fiveplayer{
+    height:0.9rem;
+    width: 0.9rem;
+    padding-left: 1.4rem;
+    opacity: 0.7;
+    padding-top: 0.3rem; 
+    
+}
+/* 
+progressbar  */
+
+.progressbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+
+.progressbar1{
+    width: 70%;
+    appearance:none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.progressbar1::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+.progressbar1::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin: -6px;
+}
+
+/* control */
+
+.control{
+    display: flex;
+    
+
+}
+
+.all-controls{
+    height:1.5rem;
+    width: 1.5rem;
+    opacity: 0.7;
+    
+      
+    
+}
+#control11{
+    height:1.5rem;
+    width: 1.5rem;
+    opacity: 0.7;
+
+}
+.control1{
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+.control2{
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.control3{
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.control4{
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.control5{
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+/* hover  */
+
+#oneplayer:hover{
+    opacity: 1;
+    
+    
+}
+#twoplayer:hover{
+    opacity: 1;
+
+}
+#threeplayer:hover{
+   opacity: 1;
+    
+}
+#fourplayer:hover{
+opacity: 1;
+    
+}
+#fiveplayer:hover{
+    opacity: 1;
+}
+
+.all-controls:hover{
+    opacity: 1;
+}
+#control11:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+/* musicplayer */
+.music{
+    display: flex;
+    width: 25%;
+    background-color: aquamarine;
+}
+
+#image-music{
+    height: 4rem;
+    width: 3.9rem;
+    border-radius: 0.7rem;
+}
+
+.musicplayer-image{
+    margin-left: 2rem;
+    margin-top: 0.28rem;
+    
+
+}
+
+.musicplayer-name{
+    margin-left: 0.6rem;
+    font-size: 0.7rem;
+    margin: top 0.46rem;
+}
+#singername{
+    padding-left: 0.18rem;
+    font-size: 0.53rem;
+    padding-top: 0.4rem;
+}
+.love-sign{
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    
+}
+
+#love1{
+    height: 1.38rem;
+    width: 1.38rem;
+}
+#love2{
+    height: 1.38rem;
+    width: 1.38rem;
+    padding-left: 0.6rem;
+
+}
+
+/* controls */
+
+.controls{
+    display: flex;
+    width:50%;
+    background-color: green;
+}
+
+.musicplayer{
+    display: flex;
+}
+
+.all-controls{
+    height: 1.38rem;
+    width: 1.38rem;
+}
+.controls{
+    margin-top: 1.5rem;
+    margin-left: 45rem;
+}
+#control2 {
+    padding-left: 0.48rem;
+
+}
+#control3{
+    padding-left: 0.48rem;
+
+}
+#control4 {
+    padding-left: 0.48rem;
+
+}
+#control5 {
+    padding-left: 0.48rem;
+
+}
+
+/* player */
+
+
+
+.player{
+    width: 25%;
+    background-color: pink;
+}
+
+.player-controls{
+   
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 0.76rem;
+    
+}
+
+
+#oneplayer{
+    height:0.9rem;
+    width: 0.9rem;
+    padding-top: 0.70rem;
+    opacity: 0.7;
+
+}
+#twoplayer{
+
+    height:0.9rem;
+    width: 0.9rem;
+    padding-top: 0.70rem;
+    padding-left: 1.4rem;
+    opacity: 0.7;
+}
+
+
+#threeplayer{
+    height:1.8rem;
+    width: 1.8rem;
+    padding-top: 0.22rem;
+    padding-left: 1.4rem;
+    opacity: 1;
+    
+}
+#fourplayer{
+    height:0.9rem;
+    width: 0.9rem;
+    padding-top: 0.70rem;
+    padding-left: 1.4rem;
+    opacity: 0.7;
+
+}
+#fiveplayer{
+    height:0.9rem;
+    width: 0.9rem;
+    padding-top: 0.70rem;
+    padding-left: 1.4rem;
+    opacity: 0.7;
+}
+
+
+
+#oneplayer:hover{
+    opacity: 1;
+}
+#twoplayer:hover{
+    opacity: 1;
+}
+
+#fourplayer:hover{
+    opacity: 1;
+}
+#fiveplayer:hover{
+    opacity: 1;
+}
+
+
+/* music bar */
+
+.playbackbar{
+    display:flex;
+    margin-left: 18.66689rem;
+    margin-top: 0.29rem;
+   
+}
+.progressbar{
+    width: 70%;
+}
